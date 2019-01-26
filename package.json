@@ -1,0 +1,32 @@
+{
+  "name": "uwebarthel",
+  "version": "1.0.0",
+  "description": "2019 Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1uweb/uwebarthel.git"
+  },
+  "author": "Uwe Barthel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1uweb/uwebarthel/issues"
+  },
+  "homepage": "https://github.com/1uweb/uwebarthel#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^7.0.2",
+    "next-page-transitions": "^1.0.0-alpha.5",
+    "next-size": "^2.0.1",
+    "node-sass": "^4.11.0",
+    "nprogress": "^0.2.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
